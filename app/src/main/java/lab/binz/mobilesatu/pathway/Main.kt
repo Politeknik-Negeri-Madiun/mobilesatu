@@ -1,6 +1,7 @@
 package lab.binz.mobilesatu.pathway
 
 import lab.binz.mobilesatu.pathway.model.Aquarium
+import lab.binz.mobilesatu.ti2c.PhysicsSystem
 
 fun buildAquarium() {
     val aquarium1 = Aquarium()
@@ -23,5 +24,6 @@ fun buildAquarium() {
 }
 
 fun main() {
-    buildAquarium()
+//    buildAquarium()
+    println(PhysicsSystem.gravity)
 }

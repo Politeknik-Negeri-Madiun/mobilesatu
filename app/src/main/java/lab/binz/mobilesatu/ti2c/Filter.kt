@@ -29,4 +29,7 @@ fun main(){
 
     val flat2 = listOf(kelas2c, kelas2d).flatten().filter { it[0] == 'a'}.map { "Hello $it" }
     println(flat2)
+
+    val gravity = 9.8
+    println()
 }
